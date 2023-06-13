@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="img">
+    <file>res/dt_namespace.png</file>
+    <file>res/dt_bluetooth.png</file>
+    <file>res/dt_camera.png</file>
+    <file>res/dt_sensor.png</file>
+    <file>res/dt_server.png</file>
+    <file>res/dt_application.png</file>
+    <file>res/dt_basic_info.png</file>
+    <file>res/dt_battery.png</file>
+    <file>res/dt_display.png</file>
+    <file>res/dt_more_info.png</file>
+    <file>res/dt_network.png</file>
+    <file>res/dt_storage.png</file>
+    <file>res/dt_details.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>978</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="linkadb_details.qrc">
+    <normaloff>:/img/res/dt_details.png</normaloff>:/img/res/dt_details.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>961</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QTabWidget" name="tb_details">
+       <property name="focusPolicy">
+        <enum>Qt::TabFocus</enum>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::DefaultContextMenu</enum>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="tabPosition">
+        <enum>QTabWidget::North</enum>
+       </property>
+       <property name="tabShape">
+        <enum>QTabWidget::Rounded</enum>
+       </property>
+       <property name="currentIndex">
+        <number>5</number>
+       </property>
+       <property name="elideMode">
+        <enum>Qt::ElideLeft</enum>
+       </property>
+       <widget class="QWidget" name="tab_basic_info">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_basic_info.png</normaloff>:/img/res/dt_basic_info.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>基本信息</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>941</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="1" column="4">
+           <widget class="QLabel" name="label_31">
+            <property name="text">
+             <string>SDK版本：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="0" colspan="2">
+           <widget class="QLineEdit" name="le_cmd_search">
+            <property name="placeholderText">
+             <string>搜索...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="le_name"/>
+          </item>
+          <item row="6" column="1">
+           <widget class="QLineEdit" name="lineEdit_10"/>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLabel" name="label_29">
+            <property name="text">
+             <string>Android版本:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QLineEdit" name="lineEdit_9"/>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_32">
+            <property name="text">
+             <string>认证型号：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>电池状态：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="le_brand"/>
+          </item>
+          <item row="8" column="2" colspan="3">
+           <widget class="QLabel" name="label_22">
+            <property name="text">
+             <string>命令的帮助信息：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4">
+           <widget class="QLabel" name="label_38">
+            <property name="text">
+             <string>屏幕分辨率：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QLineEdit" name="lineEdit_6"/>
+          </item>
+          <item row="3" column="5">
+           <widget class="QLineEdit" name="lineEdit_14"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>制造商：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>电量：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QLineEdit" name="lineEdit_11"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLineEdit" name="lineEdit_5"/>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_36">
+            <property name="text">
+             <string>内核版本：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="5">
+           <widget class="QLineEdit" name="lineEdit_13"/>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="label_20">
+            <property name="text">
+             <string>支持的命令：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4">
+           <widget class="QLabel" name="label_34">
+            <property name="text">
+             <string>摄像头：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLineEdit" name="le_cmd_count"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="label_30">
+            <property name="text">
+             <string>电池容量：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QComboBox" name="cb_b_state_only_show">
+            <item>
+             <property name="text">
+              <string>2（充电中）</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>3（充电器未插入）</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>4（未充电）</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>5（电池满）</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="lineEdit_7"/>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="label_33">
+            <property name="text">
+             <string>电池健康：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6" rowspan="11">
+           <widget class="Line" name="line_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="2" rowspan="2" colspan="4">
+           <widget class="QTextBrowser" name="tb_cmd_help"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>名称（代号）：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>品牌：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="le_marketname"/>
+          </item>
+          <item row="3" column="4">
+           <widget class="QLabel" name="label_35">
+            <property name="text">
+             <string>屏幕大小：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QLabel" name="label_37">
+            <property name="text">
+             <string>电池温度：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="le_manufacturer"/>
+          </item>
+          <item row="0" column="3">
+           <widget class="QProgressBar" name="pb_battery">
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QProgressBar::chunk
+{
+border-radius:11px;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:0,stop:0 #01FAFF,stop:1  #26B4FF);
+}
+QProgressBar#progressBar
+{
+height:22px;
+font-size:14px;
+color:white;
+border-radius:11px;
+background: #1D5573 ;
+}
+</string>
+            </property>
+            <property name="value">
+             <number>90</number>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="textDirection">
+             <enum>QProgressBar::TopToBottom</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0" colspan="2">
+           <widget class="QListWidget" name="lw_command_list"/>
+          </item>
+          <item row="3" column="0" rowspan="2">
+           <widget class="QLabel" name="lable_16">
+            <property name="text">
+             <string>产品名：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="lineEdit_8"/>
+          </item>
+          <item row="5" column="5">
+           <widget class="QLineEdit" name="lineEdit_15"/>
+          </item>
+          <item row="7" column="0" colspan="6">
+           <widget class="Line" name="line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_storage">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_storage.png</normaloff>:/img/res/dt_storage.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>存储</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>941</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_27">
+            <property name="text">
+             <string>内存数据：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="label_26">
+            <property name="text">
+             <string>内存饼图：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QWebEngineView" name="web_browser_mem" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>270</width>
+              <height>0</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_28">
+            <property name="text">
+             <string>存储空间数据：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QTabWidget" name="tab_storage_2">
+            <property name="tabPosition">
+             <enum>QTabWidget::East</enum>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="tab_mem_brief">
+             <attribute name="title">
+              <string>简述</string>
+             </attribute>
+             <widget class="QWidget" name="horizontalLayoutWidget_2">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>621</width>
+                <height>271</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_2">
+               <item>
+                <widget class="QTableWidget" name="table_mem">
+                 <column>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Total</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Used</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Free</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Shared</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Buffers</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="tab_mem_details">
+             <attribute name="title">
+              <string>细节</string>
+             </attribute>
+             <widget class="QWidget" name="horizontalLayoutWidget_3">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>621</width>
+                <height>291</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <item>
+                <widget class="QTableWidget" name="table_mem_details">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string>Key</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Value</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="4">
+           <widget class="QTabWidget" name="tabWidget">
+            <property name="tabPosition">
+             <enum>QTabWidget::East</enum>
+            </property>
+            <property name="tabShape">
+             <enum>QTabWidget::Rounded</enum>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="tab_5">
+             <attribute name="title">
+              <string>细节</string>
+             </attribute>
+             <widget class="QWidget" name="horizontalLayoutWidget_5">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>911</width>
+                <height>271</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QTableWidget" name="table_disk">
+                 <column>
+                  <property name="text">
+                   <string>Filesystem</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Size</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Used</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Avail</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Use%</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Mounted on</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="tab_6">
+             <attribute name="title">
+              <string>图表</string>
+             </attribute>
+             <widget class="QWidget" name="horizontalLayoutWidget_4">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>911</width>
+                <height>271</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <item>
+                <widget class="QWebEngineView" name="web_browser_storage" native="true"/>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_network">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_network.png</normaloff>:/img/res/dt_network.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>网络</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_7">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>941</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_17">
+            <property name="text">
+             <string>IP:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" rowspan="2">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>WLAN 开关:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3" rowspan="5">
+           <widget class="QTextBrowser" name="textBrowser"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="text">
+             <string>开启WiFi</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEdit"/>
+          </item>
+          <item row="3" column="1">
+           <widget class="QPushButton" name="pushButton_9">
+            <property name="text">
+             <string>关闭WiFi</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <widget class="QTextBrowser" name="textBrowser_2"/>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>IP/URL：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_11">
+            <property name="text">
+             <string>ping</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QPushButton" name="pushButton_12">
+            <property name="text">
+             <string>Refresh Network info</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEdit_2"/>
+          </item>
+          <item row="7" column="1">
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="text">
+             <string>Turn OFF(Data)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_18">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" rowspan="2">
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>Mobile network switch:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="text">
+             <string>Turn ON(Data)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="3">
+           <widget class="QPushButton" name="pushButton_13">
+            <property name="text">
+             <string>Refresh Mobile Network info</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_app">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_application.png</normaloff>:/img/res/dt_application.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>应用</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>941</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0" alignment="Qt::AlignRight">
+           <widget class="QLabel" name="label">
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+             <string>过滤器</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="cb_select_app_type">
+            <item>
+             <property name="text">
+              <string>全部应用</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>系统应用</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>第三方应用</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="5">
+           <widget class="QListWidget" name="lw_app"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QTextBrowser" name="tb_app_details"/>
+          </item>
+          <item row="0" column="4">
+           <widget class="QPushButton" name="btn_install">
+            <property name="text">
+             <string>安装APK</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2" colspan="2" alignment="Qt::AlignHCenter">
+           <widget class="QToolButton" name="tbtn_refresh_app_list">
+            <property name="toolTip">
+             <string>Refresh App List</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_battery">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_battery.png</normaloff>:/img/res/dt_battery.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>电池</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>941</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="4">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>断电：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>电量：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2" colspan="2">
+           <widget class="QComboBox" name="cb_b_state">
+            <item>
+             <property name="text">
+              <string>2（充电中）</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>3（充电器未插入）</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>4（未充电）</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>5（电池满）</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="label_23">
+            <property name="text">
+             <string>以上操作是否广播：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" rowspan="10">
+           <widget class="QTableWidget" name="table_battery">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>300</width>
+              <height>0</height>
+             </size>
+            </property>
+            <column>
+             <property name="text">
+              <string>Key</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Value</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QPushButton" name="btn_b_unplug">
+            <property name="text">
+             <string>软件模拟断开电源适配器</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QPushButton" name="btn_b_set">
+            <property name="text">
+             <string>设置电量</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="le_b_level"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="QPushButton" name="btn_b_reset">
+            <property name="text">
+             <string>复位电池设置</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>复位：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2" colspan="4">
+           <widget class="QCheckBox" name="checkBox">
+            <property name="text">
+             <string>强制发送电池状态改变广播，同时输出新的序列号</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>电池状态：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>电池历史数据：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>电池操作：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" colspan="5">
+           <widget class="Line" name="line_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1" rowspan="4" colspan="5">
+           <widget class="QWebEngineView" name="web_browser" native="true"/>
+          </item>
+          <item row="4" column="5">
+           <widget class="QPushButton" name="btn_reset_batterystats">
+            <property name="text">
+             <string>重置数据</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="4">
+           <widget class="QLabel" name="label_24">
+            <property name="text">
+             <string>重置统计数据：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4">
+           <widget class="QLabel" name="label_25">
+            <property name="text">
+             <string>导出相关历史数据：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2" colspan="2">
+           <widget class="QComboBox" name="cb_batterystats_switch_history">
+            <item>
+             <property name="text">
+              <string>禁用完整唤醒历史记录</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>启用完整唤醒历史记录</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="5" column="2" colspan="2">
+           <widget class="QPushButton" name="btn_update_battery_charts">
+            <property name="text">
+             <string>查看/刷新电池历史数据</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="5">
+           <widget class="QComboBox" name="cb_downlaod_battery_data">
+            <item>
+             <property name="text">
+              <string>导出 历史数据</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>导出 自上次充电以来的数据</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>导出 完整的每日数据</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>导出 Battery stats 的键/值</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>导出 全部数据</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_display">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_display.png</normaloff>:/img/res/dt_display.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>显示</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>941</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="2" column="4" rowspan="2">
+           <widget class="QLineEdit" name="lineEdit_16"/>
+          </item>
+          <item row="0" column="0" rowspan="2">
+           <widget class="QLabel" name="label_19">
+            <property name="text">
+             <string>分辨率：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="7" colspan="2">
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string>DPI:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="4">
+           <widget class="QLineEdit" name="lineEdit_17"/>
+          </item>
+          <item row="0" column="2" rowspan="2">
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="text">
+             <string>设置</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="5" rowspan="2" colspan="2">
+           <widget class="QPushButton" name="pushButton_15">
+            <property name="text">
+             <string>设置</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="8">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="2" rowspan="2">
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="text">
+             <string>设置</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEdit_12"/>
+          </item>
+          <item row="4" column="3">
+           <widget class="QLabel" name="label_46">
+            <property name="text">
+             <string>显示方向：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QSlider" name="horizontalSlider">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="4">
+           <widget class="QPushButton" name="pushButton_16">
+            <property name="text">
+             <string>帧率分析</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7" rowspan="2" colspan="2">
+           <widget class="QPushButton" name="btn_update_screen">
+            <property name="text">
+             <string>刷新屏幕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" rowspan="2">
+           <widget class="QLineEdit" name="lineEdit_3"/>
+          </item>
+          <item row="5" column="0" colspan="7">
+           <widget class="Line" name="line_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="8">
+           <widget class="QLabel" name="label_41">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5" rowspan="2" colspan="2">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="text">
+             <string>设置</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3" rowspan="2">
+           <widget class="QLabel" name="label_39">
+            <property name="text">
+             <string>DPI：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="7" rowspan="4">
+           <widget class="Line" name="line_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4" rowspan="2">
+           <widget class="QLineEdit" name="lineEdit_4"/>
+          </item>
+          <item row="4" column="8" rowspan="4">
+           <widget class="QLabel" name="le_screen">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_43">
+            <property name="text">
+             <string>显示方向锁定：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5" colspan="2">
+           <widget class="QPushButton" name="pushButton_14">
+            <property name="text">
+             <string>设置</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1" colspan="3">
+           <widget class="QLineEdit" name="lineEdit_19"/>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="lineEdit_18"/>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="text">
+             <string>设置</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3" rowspan="2">
+           <widget class="QLabel" name="label_45">
+            <property name="text">
+             <string>亮度调节模式：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" rowspan="2">
+           <widget class="QLabel" name="label_42">
+            <property name="text">
+             <string>显示亮度：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="8">
+           <widget class="Line" name="line_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_47">
+            <property name="text">
+             <string>包名:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="6" rowspan="3">
+           <widget class="QLabel" name="label_40">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" rowspan="4" colspan="6">
+           <widget class="QTabWidget" name="tabWidget_3">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="tab_10">
+             <attribute name="title">
+              <string>Tab 1</string>
+             </attribute>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_server">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_server.png</normaloff>:/img/res/dt_server.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>服务</string>
+        </attribute>
+        <widget class="QWidget" name="horizontalLayoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>941</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QTextBrowser" name="textBrowser_3"/>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="label_21">
+              <property name="text">
+               <string>当前的服务：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QListWidget" name="listWidget"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_7">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_bluetooth.png</normaloff>:/img/res/dt_bluetooth.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>蓝牙</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tab_8">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_camera.png</normaloff>:/img/res/dt_camera.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>相机</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tab_9">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_sensor.png</normaloff>:/img/res/dt_sensor.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>传感器</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tab_more_info">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_more_info.png</normaloff>:/img/res/dt_more_info.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>系统属性表</string>
+        </attribute>
+        <widget class="QWidget" name="gridLayoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>941</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="1" column="0" colspan="4">
+           <widget class="QTableWidget" name="table_more_info">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <column>
+             <property name="text">
+              <string>Key</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Value</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="le_search">
+            <property name="placeholderText">
+             <string>Search content</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="btn_search">
+            <property name="text">
+             <string>Search</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton">
+            <property name="toolTip">
+             <string>Alt+Up</string>
+            </property>
+            <property name="text">
+             <string>Previous</string>
+            </property>
+            <property name="shortcut">
+             <string>Alt+Up</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="toolTip">
+             <string>Alt+Down</string>
+            </property>
+            <property name="text">
+             <string>Next</string>
+            </property>
+            <property name="shortcut">
+             <string>Alt+Down</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab">
+        <attribute name="icon">
+         <iconset resource="linkadb_details.qrc">
+          <normaloff>:/img/res/dt_namespace.png</normaloff>:/img/res/dt_namespace.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>NameSpace</string>
+        </attribute>
+        <widget class="QTabWidget" name="tabWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>961</width>
+           <height>621</height>
+          </rect>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab_2">
+          <attribute name="title">
+           <string>System</string>
+          </attribute>
+          <widget class="QWidget" name="verticalLayoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>951</width>
+             <height>591</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QLabel" name="label_44">
+              <property name="text">
+               <string>请谨慎操作，请确保您知道参数的含义和修改后的影响！！！更改这些设置之前请确认参数的含义，以免不良后果！！！</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTableWidget" name="tableWidget"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_3">
+          <attribute name="title">
+           <string>Secure</string>
+          </attribute>
+         </widget>
+         <widget class="QWidget" name="tab_4">
+          <attribute name="title">
+           <string>Global</string>
+          </attribute>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">PyQt5.QtWebEngineWidgets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>tb_details</tabstop>
+  <tabstop>le_search</tabstop>
+  <tabstop>btn_search</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>table_more_info</tabstop>
+ </tabstops>
+ <resources>
+  <include location="linkadb_details.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>search()</slot>
+  <slot>previous()</slot>
+  <slot>next()</slot>
+  <slot>select_app_type()</slot>
+  <slot>install_app()</slot>
+  <slot>query_app_details()</slot>
+  <slot>refresh_app_list()</slot>
+  <slot>set_battery_status()</slot>
+  <slot>set_battery_level()</slot>
+  <slot>set_battery_unplug()</slot>
+  <slot>reset_battery()</slot>
+  <slot>refresh_disk()</slot>
+  <slot>screen_update()</slot>
+ </slots>
+</ui>

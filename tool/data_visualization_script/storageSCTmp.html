@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="./echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 850px;height:250px;"></div>
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById('main'));
+
+        option = {
+            tooltip: {},
+              xAxis: {
+                    type: 'category',
+                    data: [@yData@],
+                    axisLabel: {
+                        rotate: -30, // 倾斜角度
+                        interval: 0 // 显示所有标签
+                    },
+                    name: '(Path)',
+              },
+              yAxis: {
+                    type: 'value',
+                    name: '(percent,%)',
+              },
+              series: [
+                    {
+                          data: [@xDataUsed@],
+                          type: 'bar',
+                          showBackground: true,
+                          stack:'S1',
+                    },
+                    {
+                          data: [@xDataAvail@],
+                          type: 'bar',
+                          showBackground: true,
+                          stack:'S1',
+                    }
+              ]
+            };
+
+        myChart.setOption(option);
+    </script>
+</body>
+</html>

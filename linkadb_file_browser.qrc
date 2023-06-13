@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="img">
+    <file>res/ft_details.png</file>
+    <file>res/ft_edit.png</file>
+    <file>res/ft_operate.png</file>
+    <file>res/ft_copy.png</file>
+    <file>res/ft_path.png</file>
+    <file>res/ft_copy2.png</file>
+    <file>res/ft_cut2.png</file>
+    <file>res/ft_del.png</file>
+    <file>res/msg_info.png</file>
+    <file>res/msg_warn.png</file>
+    <file>res/ft_new.png</file>
+    <file>res/ft_download.png</file>
+    <file>res/ft_upload.png</file>
+    <file>res/ft_exe.png</file>
+    <file>res/ft_file.png</file>
+    <file>res/ft_folder.png</file>
+    <file>res/ft_link.png</file>
+    <file>res/ft_unknown.png</file>
+  </qresource>
+</RCC>

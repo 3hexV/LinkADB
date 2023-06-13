@@ -1,0 +1,32 @@
+<RCC>
+  <qresource prefix="img">
+    <file>res/td_rm_remote_control.png</file>
+    <file>res/msg_info.png</file>
+    <file>res/msg_warn.png</file>
+    <file>res/device_usb_connect.png</file>
+    <file>res/device_usb_disconnect.png</file>
+    <file>res/device_wifi_connect.png</file>
+    <file>res/device_wifi_disconnect.png</file>
+    <file>res/tb_log_clear_log.png</file>
+    <file>res/tb_log_export_log.png</file>
+    <file>res/logo.png</file>
+    <file>res/td_rm_shell_cmd.png</file>
+    <file>res/td_rm_shell_powershell.png</file>
+    <file>res/td_rm_connect.png</file>
+    <file>res/td_rm_disconnect.png</file>
+    <file>res/td_rm_more_details.png</file>
+    <file>res/td_rm_refresh.png</file>
+    <file>res/td_rm_shell.png</file>
+    <file>res/td_rm_screen.png</file>
+    <file>res/adb_wifi_connect.png</file>
+    <file>res/td_rm_file_browser.png</file>
+    <file>res/adb_server_stop.png</file>
+    <file>res/adb_server_refresh.png</file>
+    <file>res/adb_server_start.png</file>
+    <file>res/adb_server_activated.png</file>
+    <file>res/adb_server_unactivated.png</file>
+  </qresource>
+  <qresource prefix="3img">
+    <file>tool/scrcpy/icon.png</file>
+  </qresource>
+</RCC>

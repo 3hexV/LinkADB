@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="./echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 250px;height:200px;"></div>
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById('main'));
+
+        var option = {
+                series : [
+                    {
+                        title: '内存使用情况',
+                        name: '内存使用情况',
+                        type: 'pie',
+                        radius:['30%','60%'],
+                        data:[
+                            @Data@
+                        ],
+						label:{
+                    	    show:true,
+                    		formatter:function(arg){
+                        		return arg.data.name + '\n' + arg.percent.toFixed(1) + '%'
+                    		}
+                		},
+                        itemStyle: {
+                            normal: {
+                                shadowBlur: 20,
+                                shadowColor: 'rgba(0, 0, 0, 0.5)'
+                            }
+                        }
+                    }
+                ]
+            };
+
+        myChart.setOption(option);
+    </script>
+</body>
+</html>

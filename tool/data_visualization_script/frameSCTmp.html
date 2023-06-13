@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="./echarts.min.js"></script>
+</head>
+
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+        var option = {
+            tooltip: {
+            },
+            legend: {
+              data:['FrameCompleted','IssueDrawCommandsStart','SyncStart','SyncQueued','DrawStart',
+              'SyncQueued','PerformTraversalsStart','HandleInputStart','Vsync'],
+            },
+            xAxis: {
+                data: [@xData@]
+            },
+            color:['#b32c2d','#6aaa1c','#d74276','#2a99c5','#950097','#279624','#fa9915','#d63711','#3d66ca'],
+            yAxis: {
+                axisLabel:{
+                    formatter:"{value}ms"
+                }
+            },
+            series: [{
+                name: 'FrameCompleted',
+                type: 'bar',
+                z:"-1",
+                barGap: '-100%',
+                data: [@yData1@]
+            },
+            {
+                name: 'IssueDrawCommandsStart',
+                type: 'bar',
+                data: [@yData2@]
+            },
+            {
+                name: 'SyncStart',
+                type: 'bar',
+                data: [@yData3@]
+            },
+            {
+                name: 'SyncQueued',
+                type: 'bar',
+                data: [@yData4@]
+            },
+            {
+                name: 'DrawStart',
+                type: 'bar',
+                data: [@yData5@]
+            },
+            {
+                name: 'SyncQueued',
+                type: 'bar',
+                data: [@yData6@]
+            },
+            {
+                name: 'PerformTraversalsStart',
+                type: 'bar',
+                data: [@yData7@]
+            },
+            {
+                name: 'HandleInputStart',
+                type: 'bar',
+                data: [@yData8@]
+            },
+            {
+                name: 'Vsync',
+                type: 'bar',
+                data: [@yData9@]
+            }]
+        };
+
+        myChart.setOption(option);
+    </script>
+</body>
+</html>

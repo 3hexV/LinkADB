@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1017</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="linkadb_res.qrc">
+    <normaloff>:/img/res/logo.png</normaloff>:/img/res/logo.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1001</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QTreeWidget" name="tree_adb_cmd">
+       <column>
+        <property name="text">
+         <string>命令</string>
+        </property>
+       </column>
+       <item>
+        <property name="text">
+         <string>Networking</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>File Transfer</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Push</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Pop</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sync</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Shell</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>App Installation</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Debugging</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Security</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Scripting</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Internal Debugging</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>USB</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>environment variables</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="lb_device_count">
+           <property name="text">
+            <string>统计: 0/0</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>| ADB 状态</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="tbtn_adb_server_state">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>res/adb_server_unactivated.png</normaloff>res/adb_server_unactivated.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_adb_server_refresh">
+           <property name="text">
+            <string>刷新ADB状态</string>
+           </property>
+           <property name="icon">
+            <iconset resource="linkadb_res.qrc">
+             <normaloff>:/img/res/adb_server_refresh.png</normaloff>:/img/res/adb_server_refresh.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>| ADB 端口:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="le_adb_server_port">
+           <property name="text">
+            <string>5037</string>
+           </property>
+           <property name="placeholderText">
+            <string>5037</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_adb_server_start">
+           <property name="text">
+            <string>启动ADB服务</string>
+           </property>
+           <property name="icon">
+            <iconset resource="linkadb_res.qrc">
+             <normaloff>:/img/res/adb_server_start.png</normaloff>:/img/res/adb_server_start.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_asb_server_stop">
+           <property name="text">
+            <string>停止ADB服务</string>
+           </property>
+           <property name="icon">
+            <iconset resource="linkadb_res.qrc">
+             <normaloff>:/img/res/adb_server_stop.png</normaloff>:/img/res/adb_server_stop.png</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="table_device_list">
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectColumns</enum>
+         </property>
+         <column>
+          <property name="text">
+           <string>状态</string>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ID&amp;IP</string>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>更多信息</string>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>设备IP和Port:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="le_wifi_connect_ip">
+           <property name="placeholderText">
+            <string>192.168.1.1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="le_wifi_connect_port">
+           <property name="readOnly">
+            <bool>false</bool>
+           </property>
+           <property name="placeholderText">
+            <string>5555</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>连接</string>
+           </property>
+           <property name="icon">
+            <iconset resource="linkadb_res.qrc">
+             <normaloff>:/img/res/adb_wifi_connect.png</normaloff>:/img/res/adb_wifi_connect.png</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="tb_debug_log"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1017</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="linkadb_res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

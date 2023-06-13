@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>661</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>641</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>文件信息：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="table_file">
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>13</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>14</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>15</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>16</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>17</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>18</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>19</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>21</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>22</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>23</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>24</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>25</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>26</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>27</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>28</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>属性</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>值</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>Filename</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>File type</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>Long filename</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>Size (bytes)</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>Size/512（Block）</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>All mode bits (hex)</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>Access bits (octal)</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>Access bits (flags)</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>User ID</string>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>User name </string>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>Group ID</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>Group name</string>
+       </property>
+      </item>
+      <item row="12" column="0">
+       <property name="text">
+        <string>Mount point</string>
+       </property>
+      </item>
+      <item row="13" column="0">
+       <property name="text">
+        <string>Inode</string>
+       </property>
+      </item>
+      <item row="14" column="0">
+       <property name="text">
+        <string>Hard links</string>
+       </property>
+      </item>
+      <item row="15" column="0">
+       <property name="text">
+        <string>Device ID (hex)</string>
+       </property>
+      </item>
+      <item row="16" column="0">
+       <property name="text">
+        <string>Device ID (dec)</string>
+       </property>
+      </item>
+      <item row="17" column="0">
+       <property name="text">
+        <string>Devtype major (hex)</string>
+       </property>
+      </item>
+      <item row="18" column="0">
+       <property name="text">
+        <string>Devtype minor (hex)</string>
+       </property>
+      </item>
+      <item row="19" column="0">
+       <property name="text">
+        <string>Access unix time</string>
+       </property>
+      </item>
+      <item row="20" column="0">
+       <property name="text">
+        <string>Mod unix time</string>
+       </property>
+      </item>
+      <item row="21" column="0">
+       <property name="text">
+        <string>Creation unix time</string>
+       </property>
+      </item>
+      <item row="22" column="0">
+       <property name="text">
+        <string>Access time </string>
+       </property>
+      </item>
+      <item row="23" column="0">
+       <property name="text">
+        <string>Modification time
+</string>
+       </property>
+      </item>
+      <item row="24" column="0">
+       <property name="text">
+        <string>Creation time
+</string>
+       </property>
+      </item>
+      <item row="25" column="0">
+       <property name="text">
+        <string>I/O block size
+</string>
+       </property>
+      </item>
+      <item row="26" column="0">
+       <property name="text">
+        <string>Bytes per %b (512)
+</string>
+       </property>
+      </item>
+      <item row="27" column="0">
+       <property name="text">
+        <string>Security context</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>文件系统信息：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="table_fs">
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>属性</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>值</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>File name</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>Max filename length
+</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>File system ID
+</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>FS type (hex)
+</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>FS type (driver name)
+</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>Best transfer size
+</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>Actual block size
+</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>Total blocks
+</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>Free blocks
+</string>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>Available blocks
+</string>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>Total inodes
+</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>Free inodes
+</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>文件内容信息：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="table_file_content">
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>属性</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>值</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>FileType</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>Lines</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>Words(Separated by Spaces, tabs, or newlines)</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>Bytes</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>Characters</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
